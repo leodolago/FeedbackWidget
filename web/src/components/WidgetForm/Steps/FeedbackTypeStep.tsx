@@ -5,7 +5,7 @@ interface FeedbackTypeStepProps {
     onFeedbackTypeChanged: (type: FeedbackType) => void;
 }
 
-export function FeedbackTypeStep( {onFeedbackTypeChanged} ) {
+export function FeedbackTypeStep( {onFeedbackTypeChanged}: any ) {
     return(
         <>
             <header>
